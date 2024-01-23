@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "uk.co.hoovy.mpd_controller.client",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MusicController",
+    "GoodbyeMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
